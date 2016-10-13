@@ -1,0 +1,4 @@
+http://xkcd.com/rss.xml
+http://feeds.gawker.com/lifehacker/full
+http://feeds.feedburner.com/zenhabits
+

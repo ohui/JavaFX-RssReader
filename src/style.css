@@ -1,0 +1,118 @@
+.root{
+    -fx-background-color:white;
+}
+
+.sidebar{
+    -fx-background-color: white;
+    -fx-font-size: 13pt;
+}
+
+.list-cell{
+    /*-fx-background-color: #e1ecfe ;*/
+    /*-fx-border-color: #e1ecfe ;*/
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-cell:filled:selected {
+    -fx-text-fill: black ;
+    -fx-font-weight: bold;
+}
+
+.list-view{
+    -fx-background-color: transparent;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: 1.4, 0, 0;
+    -fx-padding: 1; /* 0.083333em; */
+}
+
+
+.titled-pane > .title{
+    -fx-background-color: white;
+    -fx-padding: 10 10 10 0;
+    -fx-border-color: white;
+}
+
+.entryText{
+    -fx-text-fill: black;
+    -fx-padding: 0 0 0 30;
+    -fx-background-color:white;
+    -fx-border-color: white;
+
+}
+
+.titled-pane{
+    -fx-border-color: darkgray;
+    -fx-background-color: white;
+}
+
+.border-pane{
+    -fx-background-color: white;
+}
+
+.scroll-pane{
+    -fx-border-color: white;
+    -fx-background-color: white;
+}
+
+
+.vbox {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: white;
+}
+
+.text-area{
+    -fx-background-color: white;
+}
+
+.text-area .content {
+    -fx-background-color: #fff;
+    -fx-border-color: white;
+}
+
+.text-area:focused .content {
+    -fx-background-color: #fff;
+    -fx-border-color: white;
+}
+
+.titled-pane:expanded > .title {
+}
+
+.titled-pane:expanded > *.content {
+    -fx-border-width: 0;
+    -fx-background-color: white;
+}
+
+.blog-list{
+    -fx-background-color: white;
+}
+
+.blog-scroll{
+}
+
+.blog-button{
+    -fx-background-color: white;
+}
+
+.blog-button:hover{
+    -fx-cursor: hand;
+}
+
+.delete-btn{
+    -fx-background-color: #f4f4f4;
+}
+
+.delete-btn:hover{
+    -fx-background-color: #fc3d3d;
+    -fx-cursor: hand;
+}
+
+.split-pane{
+    -fx-background-color: white;
+}
+
+.split-pane *.split-pane-divider {
+    -fx-padding: 0 1 0 1;
+    -fx-background-color: white;
+}
